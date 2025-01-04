@@ -1,13 +1,13 @@
 {
   "name": "leverx-employee-services",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
     "server": "json-server --watch ./src/db.json --port 3001"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^1.0.0"
   }
 }
