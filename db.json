@@ -1,0 +1,280 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "role": "admin",
+      "isRemoteWork": true,
+      "password": "1234",
+      "passwordHash": "$2b$05$GRUMVCHj0CIXwu7nBEjRMe0L0uIv43Xy0EsklN4JWQGozhZ8iyUE2",
+      "user_avatar": "/assets/Sophia.png",
+      "first_name": "Sophia",
+      "last_name": "Thompson",
+      "first_native_name": "Sophia",
+      "last_native_name": "Thompson",
+      "middle_native_name": "G.",
+      "department": "Web & Mobile",
+      "building": "Pilsudskiego 65 (Poland)",
+      "room": "1404",
+      "date_birth": {
+        "year": 1961,
+        "month": 10,
+        "day": 4
+      },
+      "desk_number": 29,
+      "manager": {
+        "id": null,
+        "first_name": null,
+        "last_name": null
+      },
+      "phone": "+123",
+      "email": "sophia@sophia.com",
+      "skype": "sophia-skype",
+      "cnumber": "C5336116",
+      "citizenship": "Georgia",
+      "visa": [
+        {
+          "issuing_country": "Poland",
+          "type": "National visa type D",
+          "start_date": 1652158800000,
+          "end_date": 1683608400000
+        },
+        {
+          "issuing_country": "Georgia",
+          "type": "National visa type D",
+          "start_date": 1952558800000,
+          "end_date": 2683108400000
+        },
+        {
+          "issuing_country": "Spain",
+          "type": "National visa type J",
+          "start_date": 1952558800000,
+          "end_date": 2184311220002
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "role": "hr",
+      "isRemoteWork": false,
+      "password": "123",
+      "passwordHash": "$2b$05$K1vBb4K5cIxqzjASD1XMgu2x7jDiBbff1UfnVXFlwPkCi3elrmJN2",
+      "user_avatar": "/assets/James.png",
+      "first_name": "James",
+      "last_name": "Harris",
+      "first_native_name": "James",
+      "last_native_name": "Harris",
+      "middle_native_name": "A.",
+      "department": "Cybersecurity & Compliance",
+      "building": "Pilsudskiego 66 (Poland)",
+      "room": "1405",
+      "date_birth": {
+        "year": 1991,
+        "month": 11,
+        "day": 23
+      },
+      "desk_number": 27,
+      "manager": {
+        "id": null,
+        "first_name": null,
+        "last_name": null
+      },
+      "phone": "+234",
+      "email": "james@james.com",
+      "skype": "james-skype",
+      "cnumber": "C5336116",
+      "citizenship": "Georgia",
+      "visa": [
+        {
+          "issuing_country": "Poland",
+          "type": "National visa type D",
+          "start_date": 1652158800000,
+          "end_date": 1683608400000
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "role": "employee",
+      "isRemoteWork": false,
+      "password": "abc",
+      "passwordHash": "$2b$05$5chRayqD25nkxb8mcic9S.dumwjkchfXmMtKb0SB2D3QWuT.DX9oO",
+      "user_avatar": "/assets/Olivia.png",
+      "first_name": "Olivia",
+      "last_name": "Bennett",
+      "first_native_name": "Olivia",
+      "last_native_name": "Bennett",
+      "middle_native_name": "Marie",
+      "department": "UI/UX Design",
+      "building": "Pilsudskiego 67 (Poland)",
+      "room": "1406",
+      "date_birth": {
+        "year": 2001,
+        "month": 6,
+        "day": 3
+      },
+      "desk_number": 24,
+      "manager": {
+        "id": 2,
+        "first_name": "James",
+        "last_name": "Harris"
+      },
+      "phone": "+345",
+      "email": "olivia@olivia.com",
+      "skype": "olivia-skype",
+      "cnumber": "C5336116",
+      "citizenship": "Georgia",
+      "visa": [
+        {
+          "issuing_country": "Poland",
+          "type": "National visa type D",
+          "start_date": 1652158800000,
+          "end_date": 1683608400000
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "role": "employee",
+      "isRemoteWork": true,
+      "password": "ggg",
+      "passwordHash": "$2b$05$MrT1nT0jgZtpMxrDkclBQuvFalNE6a2ojil5OsrJPO5Wyi0xZ6ujG",
+      "user_avatar": "/assets/Ethan.png",
+      "first_name": "Ethan",
+      "last_name": "Davis",
+      "first_native_name": "Ethan",
+      "last_native_name": "Davis",
+      "middle_native_name": "Michael",
+      "department": "Backend & Integration",
+      "building": "Pilsudskiego 68 (Poland)",
+      "room": "1407",
+      "date_birth": {
+        "year": 1981,
+        "month": 2,
+        "day": 12
+      },
+      "desk_number": 21,
+      "manager": {
+        "id": 2,
+        "first_name": "James",
+        "last_name": "Harris"
+      },
+      "phone": "+567",
+      "email": "ethan@ethan.com",
+      "skype": "live:.cid.21asd41jd1m132",
+      "cnumber": "C5336116",
+      "citizenship": "Georgia",
+      "visa": [
+        {
+          "issuing_country": "Italy",
+          "type": "National visa type G",
+          "start_date": 1552158800000,
+          "end_date": 1683608400000
+        },
+        {
+          "issuing_country": "Germany",
+          "type": "National visa type D",
+          "start_date": 1612158800000,
+          "end_date": 1683608400000
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "role": "admin",
+      "isRemoteWork": true,
+      "password": "12345",
+      "passwordHash": "$2b$05$Pu.wtFYvHh3LAKfFyl2nD.tOrgLSGovfixKpv1q3/wOntHxFTD4we",
+      "user_avatar": "/assets/Ava.png",
+      "first_name": "Ava",
+      "last_name": "Mitchell",
+      "first_native_name": "Ava",
+      "last_native_name": "Mitchell",
+      "middle_native_name": "Louise",
+      "department": "AI & Data Science",
+      "building": "Pilsudskiego 69 (Poland)",
+      "room": "1408",
+      "date_birth": {
+        "year": 1901,
+        "month": 1,
+        "day": 1
+      },
+      "desk_number": 22,
+      "manager": {
+        "id": null,
+        "first_name": null,
+        "last_name": null
+      },
+      "phone": "+12931293129",
+      "email": "mitchell@mitchell.com",
+      "skype": "live:.cid.21asd41jd1m132",
+      "cnumber": "C5336116",
+      "citizenship": "Georgia",
+      "visa": [
+        {
+          "issuing_country": "Hungary",
+          "type": "National visa type D",
+          "start_date": 1650158800000,
+          "end_date": 1683608400000
+        },
+        {
+          "issuing_country": "Poland",
+          "type": "National visa type D",
+          "start_date": 1652058800000,
+          "end_date": 1683608400000
+        },
+        {
+          "issuing_country": "France",
+          "type": "National visa type D",
+          "start_date": 1652158800000,
+          "end_date": 1683607400000
+        },
+        {
+          "issuing_country": "China",
+          "type": "National visa type R",
+          "start_date": 1652158800000,
+          "end_date": 1683708400000
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "role": "employee",
+      "isRemoteWork": true,
+      "password": "1212",
+      "passwordHash": "$2b$05$zLjLAuY1.LJk2GHcPK39OeOUKULuvcLKrhna4vm47c2tTcKIJud8S",
+      "user_avatar": "/assets/Benjamin.png",
+      "first_name": "Benjamin",
+      "last_name": "Roberts",
+      "first_native_name": "Benjamin",
+      "last_native_name": "Roberts",
+      "middle_native_name": "C.",
+      "department": "Cloud & DevOps",
+      "building": "Pilsudskiego 70 (Poland)",
+      "room": "1409",
+      "date_birth": {
+        "year": 1901,
+        "month": 1,
+        "day": 1
+      },
+      "desk_number": 23,
+      "manager": {
+        "id": null,
+        "first_name": null,
+        "last_name": null
+      },
+      "phone": "+12931293129",
+      "email": "benjamin@benjamin.com",
+      "skype": "live:.cid.21asd41jd1m132",
+      "cnumber": "C5336116",
+      "citizenship": "Georgia",
+      "visa": [
+        {
+          "issuing_country": "Poland",
+          "type": "National visa type D",
+          "start_date": 1652158800000,
+          "end_date": 1683608400000
+        }
+      ]
+    }
+  ]
+}
