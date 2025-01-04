@@ -22,7 +22,7 @@ server.use((req, res, next) => {
 
 server.use(router);
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 10000;
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`);
 });
