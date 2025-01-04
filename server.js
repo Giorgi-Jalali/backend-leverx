@@ -6,12 +6,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const server = jsonServer.create();
-const router = jsonServer.router(join(__dirname, './src/db.json'));
+const router = jsonServer.router(join(__dirname, './db.json'));
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
-// Enable CORS if you're making cross-origin requests from the frontend
 server.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
