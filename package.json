@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "server": "json-server --watch ./src/db.json"
+    "server": "json-server --watch ./src/db.json --port 10000"
   },
   "dependencies": {
     "json-server": "^0.17.0"
