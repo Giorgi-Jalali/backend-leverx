@@ -8,6 +8,7 @@
     "server": "json-server --watch ./src/db.json --port 10000 --host 0.0.0.0"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "json-server": "^0.17.0"
   }
 }
